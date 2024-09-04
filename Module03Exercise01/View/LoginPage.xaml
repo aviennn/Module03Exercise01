@@ -40,7 +40,7 @@
                 VerticalOptions="End"
                 HorizontalOptions="FillAndExpand"
                 Clicked="OnLoginButtonClicked" 
-                BackgroundColor="#4CAF50" 
+                BackgroundColor="LightSeaGreen" 
                 TextColor="White"
                 CornerRadius="10"
                 Padding="10,5"/>

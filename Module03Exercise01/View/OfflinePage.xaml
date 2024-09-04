@@ -26,7 +26,7 @@
             Text="Retry"
             Clicked="OnRetryButtonClicked"
             HorizontalOptions="Center"
-            BackgroundColor="#4CAF50" 
+            BackgroundColor="LightSeaGreen" 
                 TextColor="White"
             CornerRadius="10"
             Padding="10,5" />
@@ -35,7 +35,7 @@
             Text="Close"
             Clicked="OnCloseButtonClicked"
             HorizontalOptions="Center"
-            BackgroundColor="#F44336" 
+            BackgroundColor="IndianRed" 
                     TextColor="White"
             CornerRadius="10"
             Padding="10,5"/>
