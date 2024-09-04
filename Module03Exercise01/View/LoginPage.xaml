@@ -3,40 +3,47 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Module03Exercise01.View.LoginPage"
              Title="Employee Login"
-             Background="DarkTurquoise">
-
+             BackgroundColor="#E0FFFF">
+   
     <ContentPage.Content>
         <VerticalStackLayout 
-            Padding="20"
+            Padding="30"
             Spacing="20"
-            VerticalOptions="Center">
+            VerticalOptions="Center"
+            >
 
             <Label 
                 Text="Employee Login"
-                FontSize="24"
+                FontSize="28"
                 FontAttributes="Bold"
+                TextColor="#004d40" 
                 HorizontalOptions="Center" />
 
             <Entry 
                 Placeholder="Enter Username"
                 HorizontalOptions="FillAndExpand"
-                PlaceholderColor="White"/>
+                PlaceholderColor="#B0BEC5" 
+                BackgroundColor="White"
+                Margin="0,10"/>
 
             <Entry 
                 Placeholder="Enter Password"
                 IsPassword="True"
-                x:Name="PasswordEntry"
                 HorizontalOptions="FillAndExpand"
-                PlaceholderColor="White"/>
+                PlaceholderColor="#B0BEC5" 
+                BackgroundColor="White"
+                Margin="0,10"
+                        />
 
             <Button 
                 Text="Login"
-                x:Name="LoginButton"
                 VerticalOptions="End"
-                HorizontalOptions="Center"
+                HorizontalOptions="FillAndExpand"
                 Clicked="OnLoginButtonClicked" 
-                BackgroundColor="LightCoral"/>
-
+                BackgroundColor="#4CAF50" 
+                TextColor="White"
+                CornerRadius="10"
+                Padding="10,5"/>
 
         </VerticalStackLayout>
     </ContentPage.Content>

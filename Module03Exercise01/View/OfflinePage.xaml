@@ -3,31 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Module03Exercise01.View.OfflinePage"
              Title="Offline Page"
-             BackgroundColor="DarkTurquoise">
+             BackgroundColor="#E0FFFF">
+    <!-- Light cyan background -->
 
     <VerticalStackLayout
-        Padding="20"
+        Padding="5"
         Spacing="20"
-        VerticalOptions="Center">
+        VerticalOptions="Center"
+        >
 
         <Label 
             Text="Oops! This page is offline."
-            FontSize="24"
+            FontSize="30"
             FontAttributes="Bold"
-            HorizontalOptions="Center" />
+            TextColor="#004d40" 
+            HorizontalOptions="Center" 
+            VerticalOptions="Center"
+            HorizontalTextAlignment="Center"
+            />
 
-        <Button 
+            <Button 
             Text="Retry"
             Clicked="OnRetryButtonClicked"
             HorizontalOptions="Center"
-            BackgroundColor="LightSteelBlue" 
-           />
+            BackgroundColor="#4CAF50" 
+                TextColor="White"
+            CornerRadius="10"
+            Padding="10,5" />
 
-        <Button 
+                <Button 
             Text="Close"
             Clicked="OnCloseButtonClicked"
             HorizontalOptions="Center"
-            BackgroundColor="LightCoral"/>
-        
+            BackgroundColor="#F44336" 
+                    TextColor="White"
+            CornerRadius="10"
+            Padding="10,5"/>
+
     </VerticalStackLayout>
 </ContentPage>
